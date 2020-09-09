@@ -1,0 +1,276 @@
+
+		body
+		{
+			padding: 0px;
+			margin: 0px;
+		}
+		.card {
+		  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+		  transition: 0.3s;
+		  width: 30%;
+		  display:inline-block;
+
+		}
+		
+		.card:hover {
+		  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+		}
+		
+		.container {
+		  padding: 2px 16px;
+		}
+		.card1{
+			box-shadow: 0 4px 8px 0 black;
+		  transition: 0.3s;
+		  width: 30%;
+		  display:inline-block;
+		
+		}
+		.home{
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.volunterr{
+	  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+		  transition: 0.3s;
+		  width: 15%;
+		  display:inline-block;
+		  padding: 1%;
+		  margin: 1%;
+
+}
+.volunterr:nth-child(even)
+{
+	  box-shadow: 0 4px 8px 0 red;
+	
+
+}
+.volunterr:nth-child(odd)
+{
+	  box-shadow: 0 4px 8px 0 blue;
+	  padding: 1%
+	
+}
+
+.m
+{
+position: static;
+	overflow: hidden;
+  background-color:black;
+
+display:flex;
+justify-content: flex-end;
+position: fixed;
+width: 100%;
+top:0px;
+right: 0px;
+}
+
+.m li a{
+	display: block;
+	text-decoration: none;
+	font-size: 25px;
+	font-family: 'Crimson Text', serif;
+    font-family: 'Gentium Book Basic', serif;
+    font-family: 'Cantata One', serif;
+
+
+ 
+}
+.m li a:hover{
+	color:white;
+	background-color: black;
+}
+.headerline
+{
+padding:10px;
+
+
+}
+.index{
+	height: 600px;
+	width: 100%;
+
+}
+
+.Moredetails{
+height: 600px;
+	width: 100%;
+
+}
+
+.Contact{
+height: 600px;
+	width: 100%;
+
+}
+.Project{
+height: 600px;
+	width: 100%;
+
+}
+
+.red{
+	background-color: red
+
+}
+
+.blue{
+	background-color: blue;
+	
+}
+
+.green{
+	background-color: green
+	
+}
+.links
+{
+	color: white;
+	background-color: blue;
+	padding: 20px;
+	font-size: 20px;
+
+
+}
+
+.Resume
+{
+
+	color: black;
+	background-color: red;
+	padding: 20px;
+	font-size: 10px;
+
+}
+
+a{
+	color: white;
+}
+
+@media screen and (max-width:760px){
+    .containerr{
+    	font-size: 10px;
+
+    }
+    .card1{
+		  width: 30%;
+
+	visibility: hidden;	  
+		}
+		
+    img{
+        width: 100px;
+        height: 100px;
+   		margin: -20px;     
+    }
+    h1{
+    	font-size: 15px;
+    }
+    li{
+    	font-size: 15px;
+    }
+    h4 {
+    	font-size: 10px;
+    }
+    p{
+   font-size: 10px;
+    	
+    }
+    .headerline{
+    font-size: 5px;
+    padding: 5px;
+    	
+    }
+    a{
+    font-size: 15px;
+    	
+    }
+    h3{
+    	font-size: 15px;
+    }
+    progress{
+   font-size: 15px;
+    	
+    }
+}
+.event{
+	height: 40%;
+	width: 20%;
+}
+headerline a:hover{
+background-color: rgba(149, 201, 6, 0.76);
+padding: 20px;
+}
+
+
+h1 a:hover{
+background-color: black;
+
+padding: 10px;
+border-radius: 20px;
+}
+
+a{
+	color: white;
+}
+
+
+
+.blue{
+background-color: blue;
+ box-shadow: 10px 10px;
+color: white;	
+}
+
+.links
+{
+	display:block;
+	color: white;
+	padding: 50px;
+	font-size: 20px;
+	size: 20px;
+	background-color: seagreen;
+	
+
+
+}
+
+.Resume
+{
+
+	color: white;
+	background-color: red;
+	padding: 20px;
+	font-size: 20px;
+
+}
+img{
+	 border-radius: 10%;
+	 float: left;
+	 padding: 40px;
+}
+.maininfo
+{
+	padding: 40px;
+	height: 40%;
+	width: 70%;
+}
+
+.main1{
+	background-color: hsla(0, 100%, 30%, 0.3);
+
+
+}
+
+ol
+{
+
+overflow: hidden;
+ background-color: #333;
+
+}
