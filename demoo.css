@@ -1,0 +1,59 @@
+.nav{
+	background-color: black;
+
+
+}
+.nav-link{
+	color: white;
+
+}
+
+.card{
+	display: inline-block;
+	padding: 20px;
+	margin: 20px;
+}
+
+.text-success{
+	color: red;
+
+	background-color: yellow;
+	color:gold;
+}
+
+.text-black{
+	color:gold;
+}
+
+.alert-success{
+	color: white;
+	background-color: #C3272B;
+}
+
+.list-group-item-dark{
+	color: pink;
+
+}
+.layout{
+	display: inline-block;
+}
+.progress{
+	margin: 10px;
+}
+.containerr{
+	padding: 20px;
+	background-color: red;
+}
+.cardd{
+background-color: yellow;
+padding: 30px;
+
+
+}
+
+.volunterr{
+	background-color: pink;
+	display: inline-block;
+	padding: 10px;
+	margin: 20px;
+}

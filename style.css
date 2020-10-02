@@ -45,17 +45,21 @@
 }
 .volunterr:nth-child(even)
 {
-	  box-shadow: 0 4px 8px 0 red;
+	  box-shadow: 0 4px 8px 0 #eb8f8f;
 	
 
 }
+
 .volunterr:nth-child(odd)
 {
-	  box-shadow: 0 4px 8px 0 blue;
+	  box-shadow: 0 4px 8px 0 #07689f;
 	  padding: 1%
 	
 }
 
+.volunterr:hover{
+	background-color:#e8e8e8; 
+}
 .m
 {
 position: static;
@@ -114,24 +118,17 @@ height: 600px;
 
 }
 
-.red{
-	background-color: red
-
-}
 
 .blue{
-	background-color: blue;
+	background-color: #a6a6a4
+	;
 	
 }
 
-.green{
-	background-color: green
-	
-}
 .links
 {
-	color: white;
-	background-color: blue;
+	color: black;
+	background-color: #ffcb8e;
 	padding: 20px;
 	font-size: 20px;
 
@@ -142,14 +139,14 @@ height: 600px;
 {
 
 	color: black;
-	background-color: red;
+	background-color: #e97171;
 	padding: 20px;
 	font-size: 10px;
 
 }
 
 a{
-	color: white;
+	color: black;
 }
 
 @media screen and (max-width:760px){
@@ -215,14 +212,17 @@ padding: 10px;
 border-radius: 20px;
 }
 
+ul a{
+color: white;	
+}
 a{
-	color: white;
+	color: black;
 }
 
 
 
 .blue{
-background-color: blue;
+background-color: #a6a6a4;
  box-shadow: 10px 10px;
 color: white;	
 }
@@ -230,11 +230,11 @@ color: white;
 .links
 {
 	display:block;
-	color: white;
+	color: black;
 	padding: 50px;
 	font-size: 20px;
 	size: 20px;
-	background-color: seagreen;
+	background-color: #e8e8e8;
 	
 
 
@@ -243,8 +243,8 @@ color: white;
 .Resume
 {
 
-	color: white;
-	background-color: red;
+	color: black;
+	background-color: #e97171;
 	padding: 20px;
 	font-size: 20px;
 
@@ -274,3 +274,88 @@ overflow: hidden;
  background-color: #333;
 
 }
+/*
+prespective
+	transform-style:preserve-3d;
+	backface-visibility: hidden;  magcha nhi disat
+	object-fit: cover;
+	display: flex;
+
+*/
+
+.product-container{
+	width:90%;
+	display: flex;
+	justify-content: space-around;
+	padding: 70px;
+	
+	}
+
+.product{
+	perspective:2000px;
+	width: 250px;
+	height: 250px;
+	padding: 20px;
+
+}
+
+
+.sides{
+	width: inherit;
+	height: inherit;
+	transform-style:preserve-3d;
+	transition:all 0.5s;
+	box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+	padding: 10px;
+}
+
+.front , .back{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width:100%;
+	height: 100%;
+	transform-style: preserve-3d;
+	backface-visibility: hidden;
+	border-radius: 10px;
+}
+
+.front{
+	overflow: hidden;
+}
+
+.front img{
+	width: 100%;
+	height: 100%;
+	object-fit: fill;
+	padding: 0;
+}
+.back{
+	background-color:#F2F3F4 ;
+	transform:rotateX(180deg);
+	display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+
+.back::before{
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	right: 15px;
+	bottom: 15px;
+	border-radius: 10px solid black;
+	transform: translateZ(100px);
+
+}
+
+.back p{
+	transition:translateZ(100px);
+	padding: 0 25px;
+	color: #222;
+}
+
+.product:hover .sides{transform:rotateX(180deg);}
+
