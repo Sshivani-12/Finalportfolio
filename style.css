@@ -120,7 +120,7 @@ height: 600px;
 
 
 .blue{
-	background-color: #a6a6a4
+	background-color: black
 	;
 	
 }
@@ -222,7 +222,8 @@ a{
 
 
 .blue{
-background-color: #a6a6a4;
+background-color: black
+;
  box-shadow: 10px 10px;
 color: white;	
 }
@@ -284,10 +285,8 @@ prespective
 */
 
 .product-container{
-	width:90%;
 	display: flex;
-	justify-content: space-around;
-	padding: 70px;
+  flex-direction: column;
 	
 	}
 
