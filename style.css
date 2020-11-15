@@ -148,9 +148,10 @@ height: 600px;
 a{
 	color: black;
 }
-
+/* media here*/
 @media screen and (max-width:760px){
-    .containerr{
+	
+	.containerr{
     	font-size: 10px;
 
     }
@@ -195,14 +196,21 @@ a{
     	
 	}
 	
-.product-container{
-	
+
+	.product-container{
+		
 	display: flex;
 	flex-direction: column;
 	
 }
-
+.skill{
+	margin-top: 1000px;
+	height: 1000px;
 }
+}
+
+/* media here*/
+
 .event{
 	height: 40%;
 	width: 20%;
