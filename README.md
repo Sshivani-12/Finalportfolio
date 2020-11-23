@@ -10,5 +10,5 @@ Front end |
 HTML | 
 CSS | 
 
-![GitHub Logo](/Profile.gif)
+![GitHub Logo](/Protfolio.gif)
 
