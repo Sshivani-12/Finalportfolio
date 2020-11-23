@@ -1,4 +1,4 @@
-## Finalportfolio
+## MyPortfolio
 
 This is my responsive Portfolio.
 
