@@ -1,4 +1,4 @@
-## Finalportfolio
+## MyPortfolio
 
 This is my responsive Portfolio.
 
@@ -9,4 +9,6 @@ Front end |
 ------------ |
 HTML | 
 CSS | 
+
+![GitHub Logo](/portfolio.gif)
 
